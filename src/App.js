@@ -1,15 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+
+import Banner from './components/banner';
+import Ingredients from './components/ingredients';
+import Recommended from './components/recommended';
+import Footer from './components/footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+        <Banner />
+        <Ingredients />
+        <Recommended />
+        <Footer />
     </div>
   );
 }
